@@ -28,7 +28,10 @@ The layout was built with a focus on understanding and experimenting with CSS Gr
 
 ## 📸 Screenshot
 
-![Screenshot](./images/screenshot.png)
+![PC Screenshot](./images/screenshot.png)
+
+
+![SP Screenshot](./images/screenshot2.png)
 
 ---
 
