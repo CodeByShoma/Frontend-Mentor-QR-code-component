@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/* 初期設定 */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  font-size: 100%;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+}
+
+img{
+  width: 100%;
+}
+
+/*========================================== 
+                全体のレイアウト
+==========================================*/
+
+
+/******************************************* 
+              TB版：全体のレイアウト
+*******************************************/
+@media(max-width: 900px){
+
+}
+
+/*========================================== 
+                  メイン
+==========================================*/
+.main{
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+
+  > *{
+    grid-column: 1/-1;
+  }
+}
+
+
+/* QR */
+.qr{
+  display: grid;
+  grid-template-columns: subgrid;
+  background-color: #D6E1F0;
+  height: 100vh;
+  align-content: center;
+
+  > *{
+    grid-column: 2/-2;
+  }
+}
+
+/* inner */
+.inner{
+  display: grid;
+  grid-template-rows: 
+  [qr] auto
+  [gap] 24px
+  [title] auto
+  [gap] 16px
+  [text] auto
+  [gap] 24px;
+  align-content: start;
+  background-color: #ffffff;
+  width: 320px;
+  border-radius: 20px;
+  padding: 16px 16px;
+  text-align: center;
+}
+
+/* img */
+.qr-img{
+  grid-row: qr;
+  border-radius: 10px;
+}
+
+/* title */
+.qr-title{
+  grid-row: title;
+  color: #1f314f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* description */
+.qr-desc{
+  grid-row: text;
+  color: #68778D;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
