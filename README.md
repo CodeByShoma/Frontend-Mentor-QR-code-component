@@ -22,7 +22,7 @@
 ## 📝 概要
 
 このプロジェクトでは、シンプルなQRコードカードをHTMLとCSSで再現しています。  
-`display:grid`を使ったレイアウト設計の基礎を意識してコーディングしました。
+gridレイアウト設計の基礎を意識してコーディングしました。
 
 ---
 
@@ -34,15 +34,14 @@
 
 ## 🔗 デモリンク（GitHub Pages）
 
-▶ [公開されたページを見る](https://あなたのユーザー名.github.io/リポジトリ名/)
+▶ [公開されたページを見る]( https://codebyshoma.github.io/Frontend-Mentor-QR-code-component/)
 
 ---
 
 ## 🛠 使用技術
 
-- セマンティックなHTML5
-- CSS3（Gridレイアウト・`subgrid`使用）
-- Google Fonts（Outfit）
+- HTML5
+- CSS3（Gridレイアウト）
 
 ---
 
@@ -58,7 +57,7 @@
 
 ## 🧠 学んだこと
 
-- figmaでのデザインの確認方法
+- figmaのデザイン確認方法
 - Gridで全体とセクションの「幅と背景」の使い分け
 - `subgrid`の使い方
 - `.inner`のクラス名設計の意味
