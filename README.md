@@ -1,3 +1,102 @@
+# Frontend Mentor - QR Code Component | Practice Project
+
+This is a solution to the [Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) "QR Code Component" challenge.  
+The goal of this project is to deepen my understanding of HTML/CSS basics and Grid layout design through hands-on practice.
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [Live Demo](#live-demo)
+- [Built With](#built-with)
+- [Process](#process)
+- [What I Learned](#what-i-learned)
+- [Future Improvements](#future-improvements)
+- [Useful Resources](#useful-resources)
+- [Author](#author)
+
+---
+
+## 📝 Overview
+
+This project replicates a simple QR code card using HTML and CSS.  
+The layout was built with a focus on understanding and experimenting with CSS Grid.
+
+---
+
+## 📸 Screenshot
+
+![Screenshot](./images/screenshot.png)
+
+---
+
+## 🔗 Live Demo (GitHub Pages)
+
+▶ [View the Live Site](https://codebyshoma.github.io/Frontend-Mentor-QR-code-component/)
+
+---
+
+## 🛠 Built With
+
+- Semantic HTML5
+- CSS3 (Grid Layout)
+
+---
+
+## 🧪 Process
+
+1. Set up the folder structure and base HTML
+2. Applied Grid to the `<main>` element for centered layout
+3. Used full-width background in `<section>` and centered content with `.inner`
+4. Experimented with `grid-template-rows` using named lines
+5. Deployed using GitHub Pages
+
+---
+
+## 🧠 What I Learned
+
+- How to check design specs in Figma
+- How to use Grid for managing full-width background vs content width
+- When and how to use `subgrid`
+- The role of `.inner` class in layout structure
+
+---
+
+## 🔧 Future Improvements
+
+- Responsive design for mobile view
+- Better font sizing and text alignment
+- Practice component-based layout reuse
+
+---
+
+## 🔗 Useful Resources
+
+- [Frontend Mentor Challenge Page](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+- [Google Fonts - Outfit](https://fonts.google.com/specimen/Outfit)
+- [MDN CSS Grid Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout)
+- [GitHub Pages Docs](https://docs.github.com/en/pages)
+
+---
+
+## 🧑‍💻 Author
+
+- GitHub: [@CodeByShoma](https://github.com/CodeByShoma)
+
+---
+
+## 🙏 Acknowledgments
+
+This challenge helped me better understand layout thinking and the importance of practicing real-world HTML/CSS structures.  
+Thanks to Frontend Mentor and all the developers sharing their insights and tutorials online!
+
+---
+
+## 🇯🇵 日本語版はこちら
+
+
 # Frontend Mentor - QRコードコンポーネント | 模写課題
 
 これは、[Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H) の課題「QRコードコンポーネント」の模写です。  
