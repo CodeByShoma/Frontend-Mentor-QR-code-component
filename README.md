@@ -130,7 +130,11 @@ gridレイアウト設計の基礎を意識してコーディングしました�
 
 ## 📸 スクリーンショット
 
-![スクリーンショット](./images/screenshot.png)
+![PC スクリーンショット](./images/screenshot.png)
+
+
+
+![SP スクリーンショット](./images/screenshot2.png)
 
 ---
 
